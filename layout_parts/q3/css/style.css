@@ -18,6 +18,11 @@ table {
   line-height: 26px;
 }
 
+.q3__contents td {
+  line-height: 22px;
+  text-align: center;
+}
+
 .q3__contents th, .q3__contents td{
   padding: 10px;
   border: 1px solid #dedede;

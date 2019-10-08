@@ -1,12 +1,27 @@
 @charset "UTF-8";
 
-.left-box {
+.q6--horizontal > .q6__box {
+  display:  inline-block;
+  width: 300px;
+  margin: 0 10px;
+  padding: 10px 0;
+  font-size: 16px;
+  text-align: left;
+  background-color: #fff;
+}
+
+.q6__box.is-textalign .q6__box__inner {
   text-align: center;
-  display: block;
-  background-color: #e6f2ff;
+}
+
+.q6__box.is-textalign .q6__box__text {
+  display: inline-block;
+}
+
+.q6--horizontal .q6__box__text {
+  padding: 10px 0;
   width: 90px;
-  padding: 10px;
-  margin: 0 auto;
+  background-color: #e6f2ff;
 }
 
 .right-box {

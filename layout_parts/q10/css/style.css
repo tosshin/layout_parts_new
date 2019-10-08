@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+
 .q10_box {
   position: relative;
-  display: inline-block;
   margin: 0 auto;
   padding: 20px;
   width: 500px;

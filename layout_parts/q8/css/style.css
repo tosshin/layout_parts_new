@@ -27,6 +27,7 @@
   padding: 0 15px;
   border-radius: 3px;
   font-size: 16px;
+  line-height: 26px;
 }
 
 .q8__btn {
@@ -115,6 +116,7 @@
 .q8__main__items__content {
   float: right;
   width: 180px;
+  border: none;
 }
 
 .q8__input {
@@ -125,13 +127,29 @@
   font-size: 12px;
   line-height: 12px;
   box-sizing: border-box;
+  border: none;
+}
+
+.q8__input:focus {
+  box-shadow: 0 0 7px #00bcd4
 }
 
 .q8__input__init {
-  background: none;
-  border: none;
+  padding: 0;
+  background: none;;
+  border-radius: 0;
+  font-size: 16px;
   outline: none;
   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.q8__input--init {
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none; 
+  appearance: none;
 }
 
 .clearfix::after {
@@ -183,6 +201,10 @@
   content: "";
 }
 
+.q8__select {
+  position: relative;
+}
+
 .q8__select__body {
   width: 100%;
   padding: 5px;
@@ -197,7 +219,7 @@
 .q8__select:after {
   display: block;
   position: absolute;
-  top: 40px;
+  top: 4px;
   right: 10px;
   width: 8px;
   height: 8px;
@@ -261,9 +283,15 @@
   line-height: 26px;
 }
 
+.q8__main__bottom__btn:active {
+  background-color: #fff;
+  color: #00bcd4;
+}
+
 .q8__side {
   float: right;
   width: 380px;
+  border: none;
 }
 
 .q8__side__text {
@@ -275,4 +303,8 @@
   font-size: 12px;
   box-sizing: border-box;
   resize: none;
+}
+
+.q8__side__text:focus {
+  box-shadow: 0 0 7px #00BCD4
 }
